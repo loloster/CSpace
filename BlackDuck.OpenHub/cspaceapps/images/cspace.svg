@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="240"
+   height="240"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3151">
+      <stop
+         style="stop-color:#72c8fe;stop-opacity:1"
+         offset="0"
+         id="stop3153" />
+      <stop
+         style="stop-color:#1aa5fd;stop-opacity:1"
+         offset="1"
+         id="stop3159" />
+    </linearGradient>
+    <linearGradient
+       x1="213.25259"
+       y1="248.57835"
+       x2="240.12186"
+       y2="278.59637"
+       id="linearGradient3179"
+       xlink:href="#linearGradient3151"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <path
+       d="M 246.54848 263.79074 A 20.145985 20.145985 0 1 1  206.25651,263.79074 A 20.145985 20.145985 0 1 1  246.54848 263.79074 z"
+       transform="matrix(-5.4705616,0,0,-5.4705616,1360.481,1562.5826)"
+       style="opacity:1;fill:url(#linearGradient3179);fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3149" />
+    <text
+       x="62.201092"
+       y="174.9333"
+       style="font-size:228.00175476px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text3181"
+       xml:space="preserve"><tspan
+         x="62.201092"
+         y="174.9333"
+         style="font-size:152.00115967px;font-weight:bold;fill:#ffffff"
+         id="tspan3183">C</tspan></text>
+  </g>
+</svg>
