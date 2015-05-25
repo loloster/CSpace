@@ -25,9 +25,9 @@ cdef extern from "openssl/x509.h" :
 
 cdef extern from "openssl/ssl.h" :
     ctypedef struct SSL_METHOD
-    SSL_METHOD *SSLv2_method()
-    SSL_METHOD *SSLv2_client_method()
-    SSL_METHOD *SSLv2_server_method()
+#    SSL_METHOD *SSLv2_method()
+#    SSL_METHOD *SSLv2_client_method()
+#    SSL_METHOD *SSLv2_server_method()
     SSL_METHOD *SSLv3_method()
     SSL_METHOD *SSLv3_client_method()
     SSL_METHOD *SSLv3_server_method()
@@ -131,14 +131,15 @@ SSL_VERIFY_MODE_MAX = 2
 
 cdef SSL_METHOD *getSSLMethod( int method, int methodType ) :
     m, t = method, methodType
-    if m == SSL_METHOD_SSLv2 :
-        if t == SSL_METHOD_TYPE_CLIENT :
-            return SSLv2_client_method()
-        elif t == SSL_METHOD_TYPE_SERVER :
-            return SSLv2_server_method()
-        elif t == SSL_METHOD_TYPE_GENERIC :
-            return SSLv2_method()
-    elif m == SSL_METHOD_SSLv3 :
+#    if m == SSL_METHOD_SSLv2 :
+#        if t == SSL_METHOD_TYPE_CLIENT :
+#            return SSLv2_client_method()
+#        elif t == SSL_METHOD_TYPE_SERVER :
+#            return SSLv2_server_method()
+#        elif t == SSL_METHOD_TYPE_GENERIC :
+#            return SSLv2_method()
+#    elif m == SSL_METHOD_SSLv3 :
+    if m == SSL_METHOD_SSLv3 :
         if t == SSL_METHOD_TYPE_CLIENT :
             return SSLv3_client_method()
         elif t == SSL_METHOD_TYPE_SERVER :
